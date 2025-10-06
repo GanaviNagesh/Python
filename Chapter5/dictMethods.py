@@ -1,0 +1,14 @@
+a={
+    "name":"Ganavi",
+    "from":"INDIA",
+    "marks":[92,85]
+}
+print(a.items())
+print(a.keys())
+a.update({"name":"Harry","marks":[95]})
+print(a)
+print(a.get("marks"))
+print(a["marks"])
+print(a.values())
+print(a.pop("marks"))
+print(a.popitem())

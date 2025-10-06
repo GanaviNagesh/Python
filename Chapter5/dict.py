@@ -1,0 +1,9 @@
+student={
+    "name":"Ganavi",
+    "SRN":"R22EF067",
+    67:True,
+    "Branch":"Cse",
+    "Marks":(20,16,18,21)
+}
+print(student[67])
+print(student["Marks"])
